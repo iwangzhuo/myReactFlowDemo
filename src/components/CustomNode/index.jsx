@@ -28,9 +28,7 @@ export default function CustomNode({ data }) {
               <ImAttachment /> Add PDF
             </button>
           </div>
-          <div
-          className="node-textarea-container"
-          >
+          <div className="node-textarea-container">
             <textarea
               placeholder={data.placeholder}
               className="node-textarea"
