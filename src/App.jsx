@@ -113,7 +113,7 @@ export default function App() {
         )
       );
 
-      // 只在拖动结束后加入历史
+      // 只在拖动结束后加入历史 
       pushHistory(
         nodes.map((n) =>
           n.id === node.id ? { ...n, position: node.position } : n
